@@ -4,6 +4,7 @@ import { planningMain } from './patterns/02-planning/planning.js';
 import { reflectionMain } from './patterns/03-reflection/reflection.js';
 import { reActSimpleMain } from './patterns/04-react/react.js';
 import { promptChainingMain } from './patterns/05-prompt-chaining/prompt-chaining.js';
+import { planAndExecuteMain } from './patterns/06-plan-execute/plan-execute.js';
 // import { getMessageFromModel } from './actions/get-message-model.js';
 
 console.clear();
@@ -13,4 +14,5 @@ console.clear();
 // await planningMain();
 // await reflectionMain();
 // await reActSimpleMain();
-await promptChainingMain();
+// await promptChainingMain();
+await planAndExecuteMain();
